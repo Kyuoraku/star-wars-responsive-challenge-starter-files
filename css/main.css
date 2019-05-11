@@ -1,0 +1,44 @@
+html{
+    font-family: roboto, sans-serif;
+    font-weight: 1000;
+}
+.box > img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    box-sizing: content-box;
+    margin: 1px groove red;
+    padding: 10px;
+}
+.nav{
+    width: 100%;
+    background-color: yellow;
+    padding: 10px;
+}
+.inner{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.title{
+    font-weight: 550;
+    font-size: 1.5em;
+    font-family: roboto;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3+p{
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.col-4{
+    border: 1px ridge;
+}
